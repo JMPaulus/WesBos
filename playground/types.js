@@ -79,10 +79,27 @@ teller.last = null;
 
 */
 
-let isDrawing = false;
-let age = 18;
-const ofAge = age > 19;
-console.log(ofAge);
+// let isDrawing = false;
+// let age = 18;
+// const ofAge = age > 19;
+// console.log(ofAge);
 
-age = 100;
-let age2 = 100;
+// age = 100;
+// let age2 = 100;
+
+
+/////////////Starded from here///////////////
+/* eslint-disable */
+console.log('It works.')
+
+const name = 'Jedrzej';
+const middle = "Melchior";
+const last = `Paulus`;
+
+// concatenation
+
+const hello = 'Hello, my name is ' + name + '. Nice to meet you.';
+
+/// other, easier way
+
+const hi = `Hello, my name is ${name} . Nice to meet you. I am ${30+5} years old.`;
