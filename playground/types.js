@@ -103,3 +103,14 @@ const hello = 'Hello, my name is ' + name + '. Nice to meet you.';
 /// other, easier way
 
 const hi = `Hello, my name is ${name} . Nice to meet you. I am ${30+5} years old.`;
+
+const html = `
+<div> 
+
+<h2>${name}</h2>
+<p>${hi}</p>
+
+</div>
+`;
+
+document.body.innerHTML=html;
