@@ -114,3 +114,19 @@ const html = `
 `;
 
 document.body.innerHTML=html;
+
+
+const smarties = 20;
+const kids = 3;
+
+const eachOfThemGets = Math.floor (smarties/kids);
+
+const meGetNumberOfSmarties = smarties % kids;
+
+console.log(`Each of kids gets ${eachOfThemGets} smarties.`);
+
+console.log(`Me as a dad get ${meGetNumberOfSmarties} smarties.`);
+
+/* how to open a window in console 
+type: window.location ex. window.location = `https://${0.1 + 0.2}.com`;
+*/
