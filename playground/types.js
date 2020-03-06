@@ -130,3 +130,27 @@ console.log(`Me as a dad get ${meGetNumberOfSmarties} smarties.`);
 /* how to open a window in console 
 type: window.location ex. window.location = `https://${0.1 + 0.2}.com`;
 */
+
+/////////////////// OBJECTS /////////////////////////
+
+const person = {
+  first:'Jedrzej',
+  last:'Paulus',
+  age: 35
+}; // the very first object made by me to understand the object syntax
+
+const podcasterEquipment = {
+
+  first: 'idea',
+  second: 'technicalities',
+  third: 'guests'
+};
+
+
+//////////////////  undefined ///////////////////
+
+let dog;
+console.log (dog); /// undefined
+
+let theUndefined; //// the undefined is not set
+const theNull = null; /// the null is empty, but set
