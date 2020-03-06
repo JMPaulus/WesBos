@@ -154,3 +154,20 @@ console.log (dog); /// undefined
 
 let theUndefined; //// the undefined is not set
 const theNull = null; /// the null is empty, but set
+
+
+///////////Booleans: only true or false //////
+
+//let isDown = false;
+
+const herAge = 18;
+
+const myAge = herAge >19;
+
+console.log(myAge);
+
+
+
+// one equal for variables
+// two equals are checking value
+// triple equals are checking the vaule and type
