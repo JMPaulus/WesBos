@@ -46,3 +46,24 @@ function calculateMyBill() {
 const myTotal = calculateMyBill();
 console.log(myTotal);
 console.log(`Your total is ${myTotal} PLN.`);
+// Function training
+const distance = 600;
+const speed = 60;
+
+function time() {
+  const calculation = distance / speed;
+  return calculation;
+}
+console.log(time);
+
+const monacoArea = 2.02;
+const monacoPopulation = 37550;
+
+function populationDensity() {
+  const monacoDensity = monacoPopulation / monacoArea;
+  return monacoDensity;
+}
+
+console.log(
+  `The population density in Monaco is ${monacoPopulation / monacoArea} per square kilometer`
+);
