@@ -30,7 +30,19 @@
 // const myBill4 = calculateBill(100, undefined, 0.2);
 // console.log(myBill4);
 
-
-/////////////////////STARTED FROM HERE////////////////////
+// Started from here///////////////////////
 
 console.log('it works');
+
+// Function definition
+function calculateMyBill() {
+  console.log('Running the function');
+  const totalCost = 100 * 1.23;
+  console.log(totalCost);
+  return totalCost;
+}
+
+// Function call or Function run
+const myTotal = calculateMyBill();
+console.log(myTotal);
+console.log(`Your total is ${myTotal} PLN.`);
