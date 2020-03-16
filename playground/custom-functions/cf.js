@@ -1,35 +1,3 @@
-// // Function Definition
-// function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
-//   // this is the function body
-//   console.log('Running Calculate Bill!!');
-//   const total = billAmount + billAmount * taxRate + billAmount * tipRate;
-//   return total;
-// }
-
-// // Function Call. Or **Run**
-// const wesTotal = 500;
-// const wesTaxRate = 0.3;
-// // const myTotal = calculateBill(wesTotal, wesTaxRate);
-
-// // Function Definition
-// function sayHiTo(firstName) {
-//   return `Hello ${firstName}`;
-// }
-
-// // const greeting = sayHiTo('Wes');
-// // console.log(greeting);
-
-// function doctorize(name) {
-//   return `Dr. ${name}`;
-// }
-
-// function yell(name = 'Silly Goose') {
-//   return `HEY ${name.toUpperCase()}`;
-// }
-
-// const myBill4 = calculateBill(100, undefined, 0.2);
-// console.log(myBill4);
-
 // Started from here///////////////////////
 
 console.log('it works');
@@ -87,6 +55,47 @@ function calculateTheBill(billAmount, tax) {
 }
 
 const theTotal = calculateTheBill(100, 0.23);
-const theTotal2 = calculateTheBill (200, 0.23);
+const theTotal2 = calculateTheBill(200, 0.23);
 console.log(`The total when used calculateTheBill is ${theTotal}.
 And the total used myTotal 2 is ${theTotal2}.`);
+
+// Scoped function
+
+function sayHiTo(firstName) {
+  return `Hello ${firstName}`;
+}
+
+const greeting = sayHiTo('Yan Jay');
+console.log(greeting);
+
+// // Function Definition
+// function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
+//   // this is the function body
+//   console.log('Running Calculate Bill!!');
+//   const total = billAmount + billAmount * taxRate + billAmount * tipRate;
+//   return total;
+// }
+
+// // Function Call. Or **Run**
+// const wesTotal = 500;
+// const wesTaxRate = 0.3;
+// // const myTotal = calculateBill(wesTotal, wesTaxRate);
+
+// // Function Definition
+// function sayHiTo(firstName) {
+//   return `Hello ${firstName}`;
+// }
+
+// // const greeting = sayHiTo('Wes');
+// // console.log(greeting);
+
+// function doctorize(name) {
+//   return `Dr. ${name}`;
+// }
+
+// function yell(name = 'Silly Goose') {
+//   return `HEY ${name.toUpperCase()}`;
+// }
+
+// const myBill4 = calculateBill(100, undefined, 0.2);
+// console.log(myBill4);
