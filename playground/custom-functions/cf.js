@@ -86,5 +86,7 @@ function calculateTheBill(billAmount, tax) {
   return totalBill;
 }
 
-const theTotal = calculateTheBill(100, 0.23)
-console.log(theTotal);
+const theTotal = calculateTheBill(100, 0.23);
+const theTotal2 = calculateTheBill (200, 0.23);
+console.log(`The total when used calculateTheBill is ${theTotal}.
+And the total used myTotal 2 is ${theTotal2}.`);
