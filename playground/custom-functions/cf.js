@@ -65,5 +65,26 @@ function populationDensity() {
 }
 
 console.log(
-  `The population density in Monaco is ${monacoPopulation / monacoArea} per square kilometer`
+  `The population density in Monaco is ${monacoPopulation /
+    monacoArea} per square kilometer`
 );
+
+// another example
+// const myTotal = calculateMyBill() already declared above
+const bill = 200;
+const taxRate = bill * 0.23;
+const total = bill * taxRate;
+
+const myTotal2 = calculateMyBill();
+
+console.log(`This is myTotal ${myTotal}, and myTotal2 ${myTotal2}`);
+
+// //////Parameters
+
+function calculateTheBill(billAmount, tax) {
+  const totalBill = billAmount * (1 + tax);
+  return totalBill;
+}
+
+const theTotal = calculateTheBill(100, 0.23)
+console.log(theTotal);
