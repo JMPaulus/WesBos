@@ -80,7 +80,17 @@ function yellAt(name) {
   return `What are you doing doctor ${name}?`.toUpperCase();
 }
 
-// doctorize(yellAt(`Paulus`));
+doctorize(yellAt(`Paulus`));
+
+// Default in function
+
+function helloMister(name = 'George') { // default parameter
+  return `Good day mister ${name}!`;
+}
+
+function heyMan(name ="John"){
+  return `How are you ${name}?`;
+}
 
 // // Function Definition
 // function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
