@@ -59,6 +59,8 @@ const theTotal2 = calculateTheBill(200, 0.23);
 console.log(`The total when used calculateTheBill is ${theTotal}.
 And the total used myTotal 2 is ${theTotal2}.`);
 
+const myTotal3 = calculateTheBill(20 + 20 + 30 + 20, 0.23);
+
 // Scoped function
 
 function sayHiTo(firstName) {
@@ -67,6 +69,18 @@ function sayHiTo(firstName) {
 
 const greeting = sayHiTo('Yan Jay');
 console.log(greeting);
+
+// another Function. Putting function into function
+
+function doctorize(name) {
+  return `Dear doctor ${name}.`;
+}
+
+function yellAt(name) {
+  return `What are you doing doctor ${name}?`.toUpperCase();
+}
+
+// doctorize(yellAt(`Paulus`));
 
 // // Function Definition
 // function calculateBill(billAmount, taxRate = 0.13, tipRate = 0.15) {
