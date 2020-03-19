@@ -84,11 +84,12 @@ doctorize(yellAt(`Paulus`));
 
 // Default in function
 
-function helloMister(name = 'George') { // default parameter
+function helloMister(name = 'George') {
+  // default parameter
   return `Good day mister ${name}!`;
 }
 
-function heyMan(name ="John"){
+function heyMan(name = 'John') {
   return `How are you ${name}?`;
 }
 
