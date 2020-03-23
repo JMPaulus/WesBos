@@ -14,3 +14,10 @@ const doctorize = function(firstName) {
 const summaryOfNumbers = function(addNumbers) {
   return `The sum of this operation is ${addNumbers}`;
 };
+
+// Arrow function - shorter function, concise syntax
+
+function inchToCm(inches){
+  const cm = inches * 2.54;
+  return cm;
+}
