@@ -48,10 +48,21 @@ const adding = (a, b = 3) => a + b;
 
 // returning an object
 
-function theBaby (first, last){
-  const baby = {
-  name: `${first} ${last}`,
-    age: 0
-  }
-  return baby;
-}
+// function theBaby (first, last){
+//   const baby = {
+//   name: `${first} ${last}`,
+//     age: 0
+//   }
+//   return baby;
+// }
+
+// const theBaby = (first, last) => {
+//   const baby = {
+//     name: `${first} ${last}`,
+//     age: 0
+//   }
+//   return baby;
+// }
+
+
+const theBaby = (first, last) => ({name: `${first} ${last}`, age: 0});
