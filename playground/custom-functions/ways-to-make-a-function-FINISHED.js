@@ -64,5 +64,13 @@ const adding = (a, b = 3) => a + b;
 //   return baby;
 // }
 
-
+// is it more readable arrow function?
 const theBaby = (first, last) => ({name: `${first} ${last}`, age: 0});
+
+//IIFE
+// Immediate Invoked Function Expression
+/* eslint-disable */
+(function (){
+  console.log('running the anon function');
+  return 'You are cool';
+})();
