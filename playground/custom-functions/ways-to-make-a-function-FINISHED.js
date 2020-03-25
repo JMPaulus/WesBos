@@ -1,4 +1,4 @@
-console.log('Ways to make a function works works');
+console.log('Ways to make a function');
 
 // annonymous function
 // function (firstName){
@@ -45,3 +45,13 @@ function add( a, b = 3){
 }
 // this block can be turned to an arrow function
 const adding = (a, b = 3) => a + b;
+
+// returning an object
+
+function theBaby (first, last){
+  const baby = {
+  name: `${first} ${last}`,
+    age: 0
+  }
+  return baby;
+}
