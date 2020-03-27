@@ -96,7 +96,7 @@ const Jedrzej = {
   },
 // short hand arrow function
   wisper: () => {
-    console.log('sss hii JJ, I am a mosue');
+    console.log('sss hii JJ, I am a mouse');
   }
 }
 
@@ -107,3 +107,7 @@ const button = document.querySelector('.clickMe');
 console.log(button);
 
 button.addEventListener('click', Jedrzej.sayYo );
+
+// Timer callback
+
+setTimeout (Jedrzej.sayHello, 1000);
