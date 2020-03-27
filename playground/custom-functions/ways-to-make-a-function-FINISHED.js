@@ -74,3 +74,28 @@ const theBaby = (first, last) => ({name: `${first} ${last}`, age: 0});
   console.log('running the anon function');
   return 'You are cool';
 })();
+
+(function (){
+  console.log('the anon function will run only in the parenthesis');
+  return 'This is the anon function running in parenthesis';
+})();
+
+// Methods
+// a function that lives in an object
+
+const Jedrzej = {
+  name: 'Jedrzej Paulus',
+  //Method
+  sayHello: function(){
+    console.log('Hello Jedrzej');
+    return('Hi Jedrzej');
+  },
+  // Short hand method
+  sayYo() {
+    console.log('Yo JJ');
+  },
+// short hand arrow function
+  wisper: () => {
+    console.log('sss hii JJ, I am a mosue');
+  }
+}
