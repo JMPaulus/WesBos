@@ -99,3 +99,11 @@ const Jedrzej = {
     console.log('sss hii JJ, I am a mosue');
   }
 }
+
+//callback function
+//click callback
+
+const button = document.querySelector('.clickMe');
+console.log(button);
+
+button.addEventListener('click', Jedrzej.sayYo );
