@@ -1,3 +1,4 @@
+/* eslint-disable */
 console.log('Ways to make a function');
 
 // annonymous function
@@ -25,7 +26,7 @@ function inchToCm(inches){ // regular function
 function inchtoCm2(inches) {
   return inches * 2.54;
 }
-/* eslint-disable */
+
 
 const cmToInch = (centimeter) => {
   return centimeter / 2.54;
