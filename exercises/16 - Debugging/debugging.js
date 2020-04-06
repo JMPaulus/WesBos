@@ -36,6 +36,13 @@ people.forEach((person, index) => {
 console.table(people);
 console.log('This is how console.table looks like');
 
+// console.count how many times do I run this function
+
+function helloDoc(name) {
+  console.count('how many times do I run this function?');
+  return `Dr. ${name}`;
+}
+
 // Callstack
 
 // Grabbing Elements
