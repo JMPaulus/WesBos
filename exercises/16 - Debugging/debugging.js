@@ -54,15 +54,15 @@ function manyThingsDoneHere(){
 }
 
 // Callstack
-
+ 
 // Grabbing Elements
 
 // Breakpoints
-
+/* write "debugger" to stop JS from running */
 // Scope
 
 // Network Requests
-
+/* Open Network in the browser */
 // Break On Attribute
 
 // Some Setup Code
