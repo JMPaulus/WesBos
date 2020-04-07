@@ -43,6 +43,16 @@ function helloDoc(name) {
   return `Dr. ${name}`;
 }
 
+// console.group
+
+function manyThingsDoneHere(){
+  console.group('Many of things will happen in a milisecond');
+  console.log('This is console,log');
+  console.warn('This is a warining');
+  console.error('This is an error');
+  console.group('Many of things will happen in a milisecond');
+}
+
 // Callstack
 
 // Grabbing Elements
