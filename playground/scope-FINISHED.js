@@ -48,7 +48,7 @@ go();
 
 function sayHello(name){
   function yell(){
-    console.log(name.toUpperCase());
+    console.log(name.toUpperCase())
   }
   yell();
 }
