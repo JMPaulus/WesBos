@@ -8,10 +8,9 @@ people.forEach((person, index) => {
   console.log(person.name);
 });
 
-
 // Console Methods
 people.forEach((person, index) => {
-  if(person.name === 'Wes') {
+  if (person.name === 'Wes') {
     console.log('Another name');
   }
 });
