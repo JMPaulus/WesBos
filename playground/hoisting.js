@@ -1,4 +1,4 @@
-/* esline-disable */
+/* eslint-disable */
 let age;
 console.log(age);
 age = 10;
@@ -13,3 +13,9 @@ function sayHi() {
 }
 
 const add = (a, b) => a + b;
+
+// sayHello();
+
+// function sayHello() {
+//   console.log('Hey!');
+// }
