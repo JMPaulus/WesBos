@@ -13,5 +13,22 @@ console.log(className);
 const allArticles = document.querySelectorAll('article');
 console.log(allArticles);
 
-const heading = document.querySelectorAll('h2');
-console.log(heading);
+const heading = document.querySelector('h2');
+heading.textContent = 'I am a cool guy';
+
+console.dir(heading.textContent);
+
+const item = document.getElementsByClassName('item');
+console.log(item);
+
+const paragraph = document.querySelector('p');
+paragraph.textContent = 'I am a moose';
+console.log(paragraph);
+function changeText() {
+  document.querySelector('p').innerHTML('I am a mouse');
+}
+
+const pizza = document.querySelector('.pizza');
+console.log(pizza.textContent);
+
+pizza.textContent = `${pizza.textContent} + another pizza+ 🍕`;
