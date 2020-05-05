@@ -22,13 +22,16 @@ const item = document.getElementsByClassName('item');
 console.log(item);
 
 const paragraph = document.querySelector('p');
-paragraph.textContent = 'I am a moose';
+paragraph.textContent = 'I am a moooo';
 console.log(paragraph);
 function changeText() {
   document.querySelector('p').innerHTML('I am a mouse');
 }
+console.log(changeText);
 
 const pizza = document.querySelector('.pizza');
 console.log(pizza.textContent);
 
-pizza.textContent = `${pizza.textContent} + another pizza+ 🍕`;
+// pizza.textContent = `${pizza.textContent} + another pizza + 🍕`;
+pizza.insertAdjacentText('beforeend', 'this is pizza before end 🍕');
+pizza.insertAdjacentText('afterbegin', 'this is pizza after begin 🍕');
