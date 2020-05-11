@@ -40,5 +40,11 @@ pizza.insertAdjacentText('afterbegin', 'this is pizza after begin 🍕');
 
 const pic = document.querySelector('.newImage');
 pic.classList.add('openClass'); // using a prototype to add a class
-pic.classList.toggle('round');
+
 console.log(pic.classList);
+
+function toggleRound(){
+  pic.classList.toggle('round');
+}
+
+pic.addEventListener('click', toggleRound);
