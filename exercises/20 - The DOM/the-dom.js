@@ -35,3 +35,10 @@ console.log(pizza.textContent);
 // pizza.textContent = `${pizza.textContent} + another pizza + 🍕`;
 pizza.insertAdjacentText('beforeend', 'this is pizza before end 🍕');
 pizza.insertAdjacentText('afterbegin', 'this is pizza after begin 🍕');
+
+//Classes
+
+const pic = document.querySelector('.newImage');
+pic.classList.add('openClass'); // using a prototype to add a class
+pic.classList.toggle('round');
+console.log(pic.classList);
