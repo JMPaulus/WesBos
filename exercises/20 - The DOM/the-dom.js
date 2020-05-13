@@ -48,3 +48,5 @@ function toggleRound(){
 }
 
 pic.addEventListener('click', toggleRound);
+pic.alt = 'A random photo';
+pic.width = 400;
