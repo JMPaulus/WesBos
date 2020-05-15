@@ -18,3 +18,14 @@ console.log(myDiv);
 
 document.body.appendChild(newParagraph); //grab an element from the JS file and put it to the element in DOM
 document.body.appendChild(imageToAdd);
+
+const newImage = document.createElement('img');
+newImage.src = 'https://picsum.photos/300';
+newImage.alt = 'Another random image';
+document.body.appendChild(newImage);
+console.log(newImage);
+
+const photo = document.createElement('img');
+photo.src = 'https://pyrcaster.pl/wp-content/uploads/2020/02/pyr19_222.png.webp';
+photo.alt = 'Pyrcaster image';
+document.body.appendChild(photo);
