@@ -35,4 +35,5 @@ const photo2 = document.createElement('img');
 photo.src = 'https://app.podigee.com/assets/podigee-logo-text-c3e62b8ce06f337f4b9e6b4da0b952fd8ff7593608a106995bb5bd1a487c7ff1.svg';
 photo.alt = 'Podigee logo';
 document.body.appendChild(photo2);
-console.log(photo2);
+console.log(photo2); // reflow, that is not needed
+
