@@ -60,25 +60,37 @@ newDiv.insertAdjacentElement('beforebegin', heading); //before - will make thing
 //     <li>Five</li>
 // </ul>
 
-const list = document.createElement('ul');
-const li = document.createElement('li');
-li.textContent = 'three';
-list.appendChild(li);
+// const list = document.createElement('ul');
+// const li = document.createElement('li');
+// li.textContent = 'three';
+// list.appendChild(li);
 
-document.body.insertAdjacentElement('afterbegin', list);
+// document.body.insertAdjacentElement('afterbegin', list);
 
-const li5 = document.createElement('li');
-li5.textContent = 'four';
-list.appendChild(li5); // will do a loop soon
+// const li5 = document.createElement('li');
+// li5.textContent = 'four';
+// list.appendChild(li5); // will do a loop soon
 
-const li2 = li5.cloneNode(true);
-li2.textContent = 'two';
-list.insertAdjacentElement('afterbegin', li2); // cloning the node
+// const li2 = li5.cloneNode(true);
+// li2.textContent = 'two';
+// list.insertAdjacentElement('afterbegin', li2); // cloning the node
 
-const li1 = li5.cloneNode(true);
-li1.textContent = 'one';
-list.insertAdjacentElement('afterbegin', li1); 
+// const li1 = li5.cloneNode(true);
+// li1.textContent = 'one';
+// list.insertAdjacentElement('afterbegin', li1);
 
-const li0 = li5.cloneNode(true);
-li0.textContent = 'zero';
-list.insertAdjacentElement('afterbegin', li0);
+// const li0 = li5.cloneNode(true);
+// li0.textContent = 'zero';
+// list.insertAdjacentElement('afterbegin', li0);
+
+
+const lista = document.createElement('ul');
+const listItem = document.createElement('li');
+listItem.textContent = 'eleven';
+lista.appendChild(listItem);
+
+document.body.insertAdjacentElement('afterbegin', lista);
+
+const li2 = listItem.cloneNode(true);
+li2.textContent = 'twelve';
+listItem.append(li2);
