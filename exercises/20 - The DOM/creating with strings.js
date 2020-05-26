@@ -2,13 +2,17 @@ console.log('it works');
 
 const article = document.querySelector('.article');
 
-console.log(article.innerHTML);
-
 const src = `https://picsum.photos/400`;
 const alt = `a random photo from picsum`;
 const myHTML = `
-<div classname = "wrapper">
-    <h1>This is ${alt} </h1>
+<div class = "wrapper">
+    <h1>This is ${alt}.
+    The picture below is downloaded using const src in JS. And it is different than the picture above.</h1>
+    <img src = ${src}>
 </div>`;
 
-article.innerHTML = myHTML;
+// turn a string into a DOM element
+
+const myFragment = document.createRange().createContextualFragment(myHTML);
+
+document.body.appendChild(myFragment);
