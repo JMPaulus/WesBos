@@ -10,7 +10,24 @@ document.body.appendChild(div);
 console.log(div);
 // make an unordered list
 
+const list = document.createElement('ul');
+document.body.appendChild(list);
+console.log(list);
+
 // add three list items with the words "one, two three" in them
+const li = document.createElement('li');
+li.textContent = 'One';
+list.appendChild(li);
+
+const li2 = li.cloneNode(true);
+li2.textContent = 'Two';
+list.appendChild(li2);
+
+const li3 = li.cloneNode(true);
+li3.textContent = 'Three';
+list.appendChild(li3);
+
+
 // put that list into the above wrapper
 
 // create an image
