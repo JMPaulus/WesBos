@@ -14,3 +14,6 @@ paragraph.textContent = 'This is what I will remove'; // add a text content to t
 document.body.appendChild(paragraph); // added to html
 
 paragraph.remove(); // created and removed using JS
+
+// we do still have accesss to the JS element, it was removed from HTML
+console.log(paragraph);
