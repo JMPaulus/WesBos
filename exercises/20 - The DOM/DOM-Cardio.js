@@ -30,6 +30,7 @@ list.appendChild(li3);
 
 // put that list into the above wrapper
 
+list.insertAdjacentElement('beforebegin', head);
 // create an image
 
 // set the source to an image
