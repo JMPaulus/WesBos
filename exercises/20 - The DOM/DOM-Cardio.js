@@ -7,7 +7,7 @@ div.classList.add('wrapper');
 
 // put it into the body
 document.body.appendChild(div);
-console.log(div);
+// console.log(div);
 // make an unordered list
 
 const list = document.createElement('ul');
@@ -39,22 +39,23 @@ pic.src =
 
 // set the width to 250
 pic.width = 250;
+pic.height = 250;
 // add a class of cute
 pic.classList = 'cute';
 // add an alt of Cute Puppy
 pic.alt = 'Podigee logo';
 // Append that image to the wrapper
-document.body.appendChild(pic);
+div.appendChild(pic);
 // with HTML string, make a div, with two paragraphs inside of it
 const myHTML = `
 <div>
     <p>A</p>
     <p>B</p>
 </div>`;
-console.log(myHTML);
+const ulElement = div.querySelector('ul');
 // put this div before the unordered list from above
-list.insertAdjacentElement('beforebegin', myHTML);
-
+ulElement.insertAdjacentHTML('beforebegin', myHTML);
+// document.body.appendChild(myHTML);
 // add a class to the second paragraph called warning
 // remove the first paragraph
 
