@@ -27,20 +27,33 @@ const li3 = li.cloneNode(true);
 li3.textContent = 'Three';
 list.appendChild(li3);
 
-
 // put that list into the above wrapper
 
-list.insertAdjacentElement('beforebegin', head);
+div.insertAdjacentElement('afterbegin', list);
 // create an image
+const pic = document.createElement('img');
 
 // set the source to an image
-// set the width to 250
-// add a class of cute
-// add an alt of Cute Puppy
-// Append that image to the wrapper
+pic.src =
+  'https://app.podigee.com/assets/podigee-logo-text-c3e62b8ce06f337f4b9e6b4da0b952fd8ff7593608a106995bb5bd1a487c7ff1.svg';
 
+// set the width to 250
+pic.width = 250;
+// add a class of cute
+pic.classList = 'cute';
+// add an alt of Cute Puppy
+pic.alt = 'Podigee logo';
+// Append that image to the wrapper
+document.body.appendChild(pic);
 // with HTML string, make a div, with two paragraphs inside of it
+const myHTML = `
+<div>
+    <p>A</p>
+    <p>B</p>
+</div>`;
+console.log(myHTML);
 // put this div before the unordered list from above
+list.insertAdjacentElement('beforebegin', myHTML);
 
 // add a class to the second paragraph called warning
 // remove the first paragraph
